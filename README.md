@@ -9,3 +9,6 @@ One Dir in this repository is about one project, each project has one readme fil
 
 # readmefile
 The readmefile introduce project for GPT-4 and there are one map for project, it's include the main function and model's definition.
+
+# Utilies
+the tool for concat python code is located in Utilies Directory. It will concate project in one file, whatever there is muiltlevel dirs and subdirs.
