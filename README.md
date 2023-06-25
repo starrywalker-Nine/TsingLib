@@ -5,7 +5,7 @@ TCCI初级教程，每一周的文档放在对应的文件夹中。
 Git的常用命令和基本语法，PPT加练习
 ## 第一周和第三周涉及文献和视频资料
 
-https://arxiv.org/pdf/2304.03442.pdf
+generative agent：https://arxiv.org/pdf/2304.03442.pdf
 
 demo地址：https://reverie.herokuapp.com/arXiv_Demo/
 
