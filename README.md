@@ -1,6 +1,8 @@
 # For TCCI base learning
 TCCI初级教程，每一周的文档放在对应的文件夹中。
 
+# CHATGPT相关工具使用说明准备上线
+
 # WEEK1.
 Git的常用命令和基本语法，PPT加练习
 ## 第一周和第三周涉及文献和视频资料
