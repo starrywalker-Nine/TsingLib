@@ -1,0 +1,84 @@
+Original:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church has cracks in the ceiling., Label: neutral
+Prompt:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church has cracks in the ceiling., Label: neutral,                change the Label to contraction by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church has cracks in the floor., Label: contradiction.
+Original:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church is filled with song., Label: entailment
+Prompt:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church is filled with song., Label: entailment,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church is filled with people., Label: neutral
+Original:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: A choir singing at a baseball game., Label: contradiction
+Prompt:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: A choir singing at a baseball game., Label: contradiction,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: A choir singing at a concert., Label: neutral.
+Original:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is young., Label: neutral
+Prompt:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is young., Label: neutral,                change the Label to contraction by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is old., Label: neutral, Contradiction: The woman is not young.
+Original:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is very happy., Label: entailment
+Prompt:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is very happy., Label: entailment,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:New Label: neutral
+
+New Hypothesis: The woman seems content.
+Original:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman has been shot., Label: contradiction
+Prompt:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman has been shot., Label: contradiction,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman has been hugged., Label: neutral.
+Original:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man poses in front of an ad., Label: entailment
+Prompt:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man poses in front of an ad., Label: entailment,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: An old man with a package poses in front of an advertisement.
+Hypothesis: A person poses in front of an ad.
+Label: neutral
+Original:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man poses in front of an ad for beer., Label: neutral
+Prompt:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man poses in front of an ad for beer., Label: neutral,                change the Label to contraction by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man poses by an ad for beer., Label: contradiction.
+Original:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man walks by an ad., Label: contradiction
+Prompt:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man walks by an ad., Label: contradiction,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man stands by an ad., Label: neutral.
+Original:Premise: A statue at a museum that no seems to be looking at., Hypothesis: The statue is offensive and people are mad that it is on display., Label: neutral
+Prompt:Premise: A statue at a museum that no seems to be looking at., Hypothesis: The statue is offensive and people are mad that it is on display., Label: neutral,                change the Label to contraction by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A statue at a museum that no seems to be looking at., Hypothesis: The statue is offensive and people are happy that it is on display., Label: contradictory,
+Original:Premise: A statue at a museum that no seems to be looking at., Hypothesis: There is a statue that not many people seem to be interested in., Label: entailment
+Prompt:Premise: A statue at a museum that no seems to be looking at., Hypothesis: There is a statue that not many people seem to be interested in., Label: entailment,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A statue at a museum that no seems to be looking at., Hypothesis: There is a statue that not many people seem to notice., Label: neutral.
+Original:Premise: A statue at a museum that no seems to be looking at., Hypothesis: Tons of people are gathered around the statue., Label: contradiction
+Prompt:Premise: A statue at a museum that no seems to be looking at., Hypothesis: Tons of people are gathered around the statue., Label: contradiction,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A statue at a museum that no seems to be looking at., Hypothesis: Tons of people are gathered near the statue., Label: neutral
+Original:Premise: A land rover is being driven across a river., Hypothesis: A Land Rover is splashing water as it crosses a river., Label: entailment
+Prompt:Premise: A land rover is being driven across a river., Hypothesis: A Land Rover is splashing water as it crosses a river., Label: entailment,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A land rover is being driven across a river., Hypothesis: A Land Rover is crossing a river., Label: neutral.
+Original:Premise: A land rover is being driven across a river., Hypothesis: A vehicle is crossing a river., Label: entailment
+Prompt:Premise: A land rover is being driven across a river., Hypothesis: A vehicle is crossing a river., Label: entailment,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A land rover is being driven across a river., Hypothesis: A car is crossing a river., Label: neutral.
+Original:Premise: A land rover is being driven across a river., Hypothesis: A sedan is stuck in the middle of a river., Label: contradiction
+Prompt:Premise: A land rover is being driven across a river., Hypothesis: A sedan is stuck in the middle of a river., Label: contradiction,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A land rover is being driven across a river., Hypothesis: A sedan is crossing the middle of a river., Label: neutral.
+Original:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing banjo on the floor., Label: contradiction
+Prompt:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing banjo on the floor., Label: contradiction,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing banjo on the stage., Label: neutral.
+Original:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing guitar on stage., Label: entailment
+Prompt:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing guitar on stage., Label: entailment,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A man playing an electric guitar on stage. 
+Hypothesis: A man playing acoustic guitar on stage. 
+Label: neutral
+Original:Premise: A man playing an electric guitar on stage., Hypothesis: A man is performing for cash., Label: neutral
+Prompt:Premise: A man playing an electric guitar on stage., Hypothesis: A man is performing for cash., Label: neutral,                change the Label to contraction by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A man playing an electric guitar on stage.
+Hypothesis: A man is gigging for cash.
+Label: contradiction
+Original:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A doctor is looking at a book, Label: entailment
+Prompt:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A doctor is looking at a book, Label: entailment,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A blond-haired doctor and her African american assistant looking through new medical manuals., Hypothesis: The doctor is looking at a book, Label: neutral.
+Original:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A man is eating pb and j, Label: contradiction
+Prompt:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A man is eating pb and j, Label: contradiction,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A blond-haired doctor and her African american assistant looking through new medical manuals. Hypothesis: A man is reading a newspaper. Label: neutral.
+Original:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A doctor is studying, Label: neutral
+Prompt:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A doctor is studying, Label: neutral,                change the Label to contraction by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: The doctor studies, Label: contradiction. 
+
+Note: I changed "is" to "studies" in order to create a contradiction between the original hypothesis and the premise, and kept the same number of words in the sentence.
+Original:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A boy runs into a wall, Label: contradiction
+Prompt:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A boy runs into a wall, Label: contradiction,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is standing on the ground., Hypothesis: A boy runs into a wall, Label: neutral
+Original:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A tan girl runs leans over an object, Label: entailment
+Prompt:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A tan girl runs leans over an object, Label: entailment,                change the Label to neutral by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A tan girl runs and looks at an object, Label: neutral.
+Original:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A man watches his daughter leap, Label: neutral
+Prompt:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A man watches his daughter leap, Label: neutral,                change the Label to contraction by replace only one word in second sentence, ensure the same length of sentence
+Changed:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A man watches his son leap, Label: contradiction
+Original:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A young man and woman take their child to the beach for the first time., Label: neutral
+Prompt:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A young man and woman take their child to the beach for the first time., Label: neutral,                change the Label to contraction by replace only one word in second sentence, ensure the same length of sentence

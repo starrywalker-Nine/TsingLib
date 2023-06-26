@@ -15,6 +15,9 @@ demo地址：https://reverie.herokuapp.com/arXiv_Demo/
 
 # WEEK2.
 BERT微调训练，以AGNEWS为例进行训练，并完成该项任务。
+微调代码已上传，agnews-attack.py对BERT进行了微调，并保存调好的模型。
+bert-snil.py是微调好的snil任务。
+chat_attack.py是使用chat进行prompt工程的范例。
 
 unittest的使用，测试概念
 

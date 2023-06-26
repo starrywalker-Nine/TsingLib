@@ -1,0 +1,302 @@
+Original:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church has cracks in the ceiling., Label: neutral
+Prompt:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church has cracks in the ceiling., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church.
+Hypothesis: The church has fissures in the ceiling.
+Label: neutral 
+Changed Label: contradiction
+Original:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church is filled with song., Label: entailment
+Prompt:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: The church is filled with song., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church.
+
+Hypothesis: The church is filled with music.
+
+Label: Neutral
+Original:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: A choir singing at a baseball game., Label: contradiction
+Prompt:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church., Hypothesis: A choir singing at a baseball game., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: This church choir sings to the masses as they sing joyous songs from the book at a church. Hypothesis: A choir singing at a football game. Label: neutral.
+Original:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is young., Label: neutral
+Prompt:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is young., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is youthful., Label: neutral
+
+Changed Label: Contraction
+
+Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The lady is young., Label: Contraction
+Original:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is very happy., Label: entailment
+Prompt:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman is very happy., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman appears to be happy., Label: neutral.
+Original:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman has been shot., Label: contradiction
+Prompt:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman has been shot., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A woman with a green headscarf, blue shirt and a very big grin., Hypothesis: The woman has been injured., Label: neutral
+Original:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man poses in front of an ad., Label: entailment
+Prompt:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man poses in front of an ad., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A person poses in front of an advertisement., Label: neutral
+Original:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man poses in front of an ad for beer., Label: neutral
+Prompt:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man poses in front of an ad for beer., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A gentleman poses in front of an ad for beer., Label: contradiction
+Original:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man walks by an ad., Label: contradiction
+Prompt:Premise: An old man with a package poses in front of an advertisement., Hypothesis: A man walks by an ad., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: An old man with a package poses in front of an advertisement. 
+Hypothesis: A man passes by an advertisement. 
+Label: neutral
+Original:Premise: A statue at a museum that no seems to be looking at., Hypothesis: The statue is offensive and people are mad that it is on display., Label: neutral
+Prompt:Premise: A statue at a museum that no seems to be looking at., Hypothesis: The statue is offensive and people are mad that it is on display., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A statue at a museum that no one seems to be looking at., Hypothesis: The statue is controversial and people are upset that it is on display., Label: contradictory
+Original:Premise: A statue at a museum that no seems to be looking at., Hypothesis: There is a statue that not many people seem to be interested in., Label: entailment
+Prompt:Premise: A statue at a museum that no seems to be looking at., Hypothesis: There is a statue that not many people seem to be interested in., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A statue at a museum that no seems to be looking at.
+Hypothesis: There is a statue that not many individuals seem to be interested in.
+Label: neutral
+Original:Premise: A statue at a museum that no seems to be looking at., Hypothesis: Tons of people are gathered around the statue., Label: contradiction
+Prompt:Premise: A statue at a museum that no seems to be looking at., Hypothesis: Tons of people are gathered around the statue., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A statue at a museum that no seems to be looking at., Hypothesis: A few people are gathered around the statue., Label: neutral.
+Original:Premise: A land rover is being driven across a river., Hypothesis: A Land Rover is splashing water as it crosses a river., Label: entailment
+Prompt:Premise: A land rover is being driven across a river., Hypothesis: A Land Rover is splashing water as it crosses a river., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A land rover is being driven across a river., Hypothesis: A Land Rover is creating ripples as it crosses a river., Label: neutral.
+Original:Premise: A land rover is being driven across a river., Hypothesis: A vehicle is crossing a river., Label: entailment
+Prompt:Premise: A land rover is being driven across a river., Hypothesis: A vehicle is crossing a river., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A land rover is being driven across a river.
+Hypothesis: An automobile is crossing a river.
+Label: neutral.
+Original:Premise: A land rover is being driven across a river., Hypothesis: A sedan is stuck in the middle of a river., Label: contradiction
+Prompt:Premise: A land rover is being driven across a river., Hypothesis: A sedan is stuck in the middle of a river., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A land rover is being driven across a river., Hypothesis: A car is stuck in the middle of a river., Label: neutral.
+Original:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing banjo on the floor., Label: contradiction
+Prompt:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing banjo on the floor., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing mandolin on the floor., Label: neutral (the only change made was replacing "banjo" with "mandolin" to create a similar but non-contradictory sentence)
+Original:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing guitar on stage., Label: entailment
+Prompt:Premise: A man playing an electric guitar on stage., Hypothesis: A man playing guitar on stage., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man playing an electric guitar on stage., Hypothesis: A man strumming a guitar on stage., Label: neutral.
+Original:Premise: A man playing an electric guitar on stage., Hypothesis: A man is performing for cash., Label: neutral
+Prompt:Premise: A man playing an electric guitar on stage., Hypothesis: A man is performing for cash., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man playing an electric guitar on stage., Hypothesis: A man strumming a guitar on stage., Label: neutral.
+Original:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A doctor is looking at a book, Label: entailment
+Prompt:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A doctor is looking at a book, Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A blond-haired doctor and her African american assistant looking through new medical manuals. 
+Hypothesis: A physician is examining a novel.
+Label: Neutral
+Original:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A man is eating pb and j, Label: contradiction
+Prompt:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A man is eating pb and j, Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A blond-haired doctor and her African american assistant looking through new medical manuals., Hypothesis: A man is enjoying a pb and j, Label: neutral.
+Original:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A doctor is studying, Label: neutral
+Prompt:Premise: A blond-haired doctor and her African american assistant looking threw new medical manuals., Hypothesis: A doctor is studying, Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A blond-haired doctor and her African american assistant examining fresh medical guides. 
+Hypothesis: A physician scrutinizes.
+Label: Contradiction
+Original:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A boy runs into a wall, Label: contradiction
+Prompt:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A boy runs into a wall, Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: One tan girl with a wool hat is running and leaning over an object, while another individual in a wool hat is seated on the ground., Hypothesis: A boy runs into a wall, Label: neutral.
+Original:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A tan girl runs leans over an object, Label: entailment
+Prompt:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A tan girl runs leans over an object, Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A tan girl runs leans against an object, Label: neutral.
+Original:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A man watches his daughter leap, Label: neutral
+Prompt:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground., Hypothesis: A man watches his daughter leap, Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground. 
+Hypothesis: A man observes his daughter jump. 
+Label: contradiction
+Original:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A young man and woman take their child to the beach for the first time., Label: neutral
+Prompt:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A young man and woman take their child to the beach for the first time., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A young couple takes their child to the beach for the first time., Label: contradiction.
+Original:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A family is out at a restaurant., Label: contradiction
+Prompt:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A family is out at a restaurant., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A young family enjoys feeling ocean waves lap at their feet.
+Hypothesis: A family is out at a beachside cafe.
+Label: neutral.
+Original:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A family is at the beach., Label: entailment
+Prompt:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A family is at the beach., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A young family enjoys feeling ocean waves lap at their feet., Hypothesis: A group is at the shore., Label: neutral.
+Original:Premise: A couple walk hand in hand down a street., Hypothesis: A couple is walking together., Label: entailment
+Prompt:Premise: A couple walk hand in hand down a street., Hypothesis: A couple is walking together., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A couple walk hand in hand down a street., Hypothesis: A pair is walking together., Label: neutral
+Original:Premise: A couple walk hand in hand down a street., Hypothesis: The couple is married., Label: neutral
+Prompt:Premise: A couple walk hand in hand down a street., Hypothesis: The couple is married., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A couple walk hand in hand down a street., Hypothesis: The couple is wedded., Label: neutral,
+Changed Hypothesis: The couple's married., Label: contradiction.
+Original:Premise: A couple walk hand in hand down a street., Hypothesis: A couple is sitting on a bench., Label: contradiction
+Prompt:Premise: A couple walk hand in hand down a street., Hypothesis: A couple is sitting on a bench., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A couple walk hand in hand down a street., Hypothesis: A couple is standing on a sidewalk., Label: neutral.
+Original:Premise: 3 young man in hoods standing in the middle of a quiet street facing the camera., Hypothesis: Three people sit by a busy street bareheaded., Label: contradiction
+Prompt:Premise: 3 young man in hoods standing in the middle of a quiet street facing the camera., Hypothesis: Three people sit by a busy street bareheaded., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: 3 young man in hoods standing in the middle of a quiet street facing the camera., Hypothesis: Three people stand by a bustling street hatless., Label: neutral
+Original:Premise: 3 young man in hoods standing in the middle of a quiet street facing the camera., Hypothesis: Three hood wearing people pose for a picture., Label: entailment
+Prompt:Premise: 3 young man in hoods standing in the middle of a quiet street facing the camera., Hypothesis: Three hood wearing people pose for a picture., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: 3 young man in hoods standing in the middle of a quiet street facing the camera., Hypothesis: Three people in hooded attire stand for a photograph., Label: neutral.
+Original:Premise: 3 young man in hoods standing in the middle of a quiet street facing the camera., Hypothesis: Three hood wearing people stand in a street., Label: entailment
+Prompt:Premise: 3 young man in hoods standing in the middle of a quiet street facing the camera., Hypothesis: Three hood wearing people stand in a street., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: 3 young man in hoods standing in the middle of a quiet street facing the camera., Hypothesis: Three individuals wearing hoods stand in a street., Label: neutral.
+Original:Premise: A man reads the paper in a bar with green lighting., Hypothesis: The man is inside., Label: entailment
+Prompt:Premise: A man reads the paper in a bar with green lighting., Hypothesis: The man is inside., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man reads the paper in a bar with green lighting., Hypothesis: The man is indoors., Label: neutral.
+Original:Premise: A man reads the paper in a bar with green lighting., Hypothesis: The man is reading the sportspage., Label: neutral
+Prompt:Premise: A man reads the paper in a bar with green lighting., Hypothesis: The man is reading the sportspage., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man reads the paper in a bar with green lighting., Hypothesis: The man is scanning the sportspage., Label: contradiction
+Original:Premise: A man reads the paper in a bar with green lighting., Hypothesis: The man is climbing a mountain., Label: contradiction
+Prompt:Premise: A man reads the paper in a bar with green lighting., Hypothesis: The man is climbing a mountain., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man reads the paper in a bar with green lighting., Hypothesis: The man is hiking in the mountains., Label: neutral.
+Original:Premise: Three firefighter come out of subway station., Hypothesis: Three firefighters putting out a fire inside of a subway station., Label: neutral
+Prompt:Premise: Three firefighter come out of subway station., Hypothesis: Three firefighters putting out a fire inside of a subway station., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: Three firefighters come out of subway station., Hypothesis: Three firefighters starting a fire inside of a subway station., Label: contradiction
+Original:Premise: Three firefighter come out of subway station., Hypothesis: Three firefighters coming up from a subway station., Label: entailment
+Prompt:Premise: Three firefighter come out of subway station., Hypothesis: Three firefighters coming up from a subway station., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: Three firefighter come out of subway station., Hypothesis: Three firefighters emerging from a subway station., Label: neutral.
+Original:Premise: Three firefighter come out of subway station., Hypothesis: Three firefighters playing cards inside a fire station., Label: contradiction
+Prompt:Premise: Three firefighter come out of subway station., Hypothesis: Three firefighters playing cards inside a fire station., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: Three firefighter come out of subway station., Hypothesis: Three firefighters emerging from a subway station., Label: neutral.
+Original:Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground., Hypothesis: A person is near a pile of coconuts., Label: entailment
+Prompt:Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground., Hypothesis: A person is near a pile of coconuts., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground., Hypothesis: A person is nearby a heap of coconuts., Label: neutral.
+Original:Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground., Hypothesis: A person is selling coconuts., Label: neutral
+Prompt:Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground., Hypothesis: A person is selling coconuts., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground., Hypothesis: A person is nearby a heap of coconuts., Label: neutral.
+Original:Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground., Hypothesis: A person is burning a straw hat., Label: contradiction
+Prompt:Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground., Hypothesis: A person is burning a straw hat., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground., Hypothesis: A person is using fire to mark a straw hat., Label: neutral.
+Original:Premise: Male in a blue jacket decides to lay in the grass., Hypothesis: The guy in yellow is rolling on the grass, Label: contradiction
+Prompt:Premise: Male in a blue jacket decides to lay in the grass., Hypothesis: The guy in yellow is rolling on the grass, Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: Male in a blue jacket decides to lay in the grass.
+Hypothesis: The guy in yellow is resting on the grass.
+Label: neutral
+Original:Premise: Male in a blue jacket decides to lay in the grass., Hypothesis: The guy wearing a blue jacket is laying on the green grass, Label: entailment
+Prompt:Premise: Male in a blue jacket decides to lay in the grass., Hypothesis: The guy wearing a blue jacket is laying on the green grass, Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: Male in a blue jacket decides to lay in the grass., Hypothesis: The man sporting a blue jacket is lying on the green turf, Label: neutral.
+Original:Premise: Male in a blue jacket decides to lay in the grass., Hypothesis: The guy wearing a blue jacket is laying on the green grass taking a nap., Label: neutral
+Prompt:Premise: Male in a blue jacket decides to lay in the grass., Hypothesis: The guy wearing a blue jacket is laying on the green grass taking a nap., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: Male in a blue jacket decides to lay in the grass., Hypothesis: The guy wearing a blue jacket is lying on the green grass for a rest., Label: contradiction
+Original:Premise: During calf roping a cowboy calls off his horse., Hypothesis: A first time roper falls off his horse., Label: neutral
+Prompt:Premise: During calf roping a cowboy calls off his horse., Hypothesis: A first time roper falls off his horse., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: During calf roping a cowboy calls off his horse., Hypothesis: A first time roper tumbles off his horse., Label: contradiction
+Original:Premise: During calf roping a cowboy calls off his horse., Hypothesis: A man ropes a calf successfully., Label: contradiction
+Prompt:Premise: During calf roping a cowboy calls off his horse., Hypothesis: A man ropes a calf successfully., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: During calf roping a cowboy calls off his horse., Hypothesis: A man lassos a calf successfully., Label: neutral
+Original:Premise: A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment., Hypothesis: A boy is on a playground., Label: entailment
+Prompt:Premise: A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment., Hypothesis: A boy is on a playground., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment., Hypothesis: A child is on a playground., Label: neutral.
+Original:Premise: A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment., Hypothesis: The boy is playing on the swings after school., Label: neutral
+Prompt:Premise: A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment., Hypothesis: The boy is playing on the swings after school., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment., Hypothesis: The boy is playing on the slide after school., Label: contradiction
+Original:Premise: A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment., Hypothesis: The boy is sitting on the school bus on his way home., Label: contradiction
+Prompt:Premise: A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment., Hypothesis: The boy is sitting on the school bus on his way home., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment., Hypothesis: The boy is sitting in the car on his way home., Label: neutral.
+Original:Premise: A woman wearing a ball cap squats down to touch the cracked earth., Hypothesis: An archeologist wearing a hat squats to examine the site for a dig, Label: neutral
+Prompt:Premise: A woman wearing a ball cap squats down to touch the cracked earth., Hypothesis: An archeologist wearing a hat squats to examine the site for a dig, Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A woman wearing a ball cap squats down to touch the cracked earth., Hypothesis: An archeologist wearing a cap squats to survey the site for a dig, Label: contradictory
+Original:Premise: A woman wearing a ball cap squats down to touch the cracked earth., Hypothesis: A squatting woman wearing a hat touching the ground., Label: entailment
+Prompt:Premise: A woman wearing a ball cap squats down to touch the cracked earth., Hypothesis: A squatting woman wearing a hat touching the ground., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A woman wearing a ball cap squats down to touch the cracked earth.
+Hypothesis: A squatting woman with a cap touching the ground.
+Label: neutral.
+Original:Premise: A woman wearing a ball cap squats down to touch the cracked earth., Hypothesis: A woman wearing a sun bonnet planting a garden., Label: contradiction
+Prompt:Premise: A woman wearing a ball cap squats down to touch the cracked earth., Hypothesis: A woman wearing a sun bonnet planting a garden., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A woman wearing a ball cap squats down to touch the cracked earth., Hypothesis: A woman wearing a sun hat planting a garden., Label: neutral.
+Original:Premise: Two children re laying on a rug with some wooden bricks laid out in a square between them., Hypothesis: Two children are building a brick furnace., Label: neutral
+Prompt:Premise: Two children re laying on a rug with some wooden bricks laid out in a square between them., Hypothesis: Two children are building a brick furnace., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: Two children are laying on a rug with some wooden bricks laid out in a square between them. Hypothesis: Two children are playing with the wooden bricks. Label: contradiction.
+Original:Premise: Two children re laying on a rug with some wooden bricks laid out in a square between them., Hypothesis: Two children are playing catch at a park., Label: contradiction
+Prompt:Premise: Two children re laying on a rug with some wooden bricks laid out in a square between them., Hypothesis: Two children are playing catch at a park., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: Two children are laying on a rug with some wooden bricks laid out in a square between them., Hypothesis: Two children are playing at a park., Label: neutral.
+Original:Premise: Two children re laying on a rug with some wooden bricks laid out in a square between them., Hypothesis: Two children are on a rug., Label: entailment
+Prompt:Premise: Two children re laying on a rug with some wooden bricks laid out in a square between them., Hypothesis: Two children are on a rug., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: Two children are laying on a rug with some wooden bricks laid out in a square between them., Hypothesis: Two children are playing at a park., Label: neutral.
+Original:Premise: A man standing in front of a building on the phone as two men to the side pain on the side., Hypothesis: a guy near a building stands by two other men, Label: entailment
+Prompt:Premise: A man standing in front of a building on the phone as two men to the side pain on the side., Hypothesis: a guy near a building stands by two other men, Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man standing in front of a building on the phone as two men to the side pain on the side.
+Hypothesis: a man beside a building stands next to two other men.
+Label: neutral
+Original:Premise: A man standing in front of a building on the phone as two men to the side pain on the side., Hypothesis: two girls walk through a hall, Label: contradiction
+Prompt:Premise: A man standing in front of a building on the phone as two men to the side pain on the side., Hypothesis: two girls walk through a hall, Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man standing in front of a building on the phone as two men to the side pain on the side., Hypothesis: two girls walk through a corridor, Label: neutral.
+Original:Premise: A man standing in front of a building on the phone as two men to the side pain on the side., Hypothesis: a busy man stands with bodyguards, Label: neutral
+Prompt:Premise: A man standing in front of a building on the phone as two men to the side pain on the side., Hypothesis: a busy man stands with bodyguards, Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:New Label: Contradiction 
+
+New Hypothesis: a busy man stands with bodyguards as two men beside him appear fine.
+Original:Premise: The two young girls are dressed as fairies, and are playing in the leaves outdoors., Hypothesis: Girls are playing outdoors., Label: entailment
+Prompt:Premise: The two young girls are dressed as fairies, and are playing in the leaves outdoors., Hypothesis: Girls are playing outdoors., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:New Label: Contradiction 
+
+New Hypothesis: a busy man stands with bodyguards as two men beside him appear fine.
+Original:Premise: The two young girls are dressed as fairies, and are playing in the leaves outdoors., Hypothesis: Two girls play dress up indoors., Label: contradiction
+Prompt:Premise: The two young girls are dressed as fairies, and are playing in the leaves outdoors., Hypothesis: Two girls play dress up indoors., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: The two young girls are dressed as fairies, and are playing in the leaves outdoors., Hypothesis: Two girls play pretend indoors., Label: neutral.
+Original:Premise: The two young girls are dressed as fairies, and are playing in the leaves outdoors., Hypothesis: The two girls play in the Autumn., Label: neutral
+Prompt:Premise: The two young girls are dressed as fairies, and are playing in the leaves outdoors., Hypothesis: The two girls play in the Autumn., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: The two young girls are dressed as fairies, and are playing in the leaves outdoors., Hypothesis: The two girls frolic in the Fall., Label: contradiction
+Original:Premise: People jump over a mountain crevasse on a rope., Hypothesis: Some people look visually afraid to jump., Label: neutral
+Prompt:Premise: People jump over a mountain crevasse on a rope., Hypothesis: Some people look visually afraid to jump., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: People jump over a mountain crevasse on a rope., Hypothesis: Some people appear apprehensive to jump., Label: contradiction
+Original:Premise: People jump over a mountain crevasse on a rope., Hypothesis: People are jumping outside., Label: entailment
+Prompt:Premise: People jump over a mountain crevasse on a rope., Hypothesis: People are jumping outside., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: People jump over a mountain crevasse on a rope.
+Hypothesis: People are jumping outdoors.
+Label: entailment
+
+Modified Hypothesis: People are leaping outdoors.
+Label: neutral
+Original:Premise: People jump over a mountain crevasse on a rope., Hypothesis: People slide over a mountain crevasse on a slide., Label: contradiction
+Prompt:Premise: People jump over a mountain crevasse on a rope., Hypothesis: People slide over a mountain crevasse on a slide., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: People jump over a mountain crevasse on a rope.
+Hypothesis: People traverse over a mountain crevasse on a slide.
+Label: neutral
+Original:Premise: A snowboarder on a wide plain of snow, Hypothesis: A snow field with a snowboarder on it, Label: entailment
+Prompt:Premise: A snowboarder on a wide plain of snow, Hypothesis: A snow field with a snowboarder on it, Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A snowboarder on a wide plain of snow, Hypothesis: A snowy expanse with a snowboarder on it, Label: neutral.
+Original:Premise: A snowboarder on a wide plain of snow, Hypothesis: A snowboarder gliding over a field of snow, Label: neutral
+Prompt:Premise: A snowboarder on a wide plain of snow, Hypothesis: A snowboarder gliding over a field of snow, Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A snowboarder on a wide plain of snow, Hypothesis: A snowboarder sliding over a field of snow, Label: contradiction
+Original:Premise: A snowboarder on a wide plain of snow, Hypothesis: A snowmobile in a blizzard, Label: neutral
+Prompt:Premise: A snowboarder on a wide plain of snow, Hypothesis: A snowmobile in a blizzard, Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A snowboarder on a wide plain of snow, Hypothesis: A snowmobile in a snowstorm, Label: neutral,  Change the Label to contradiction by replace only one Synonyms word in second sentence, ensure the same length of the sentence. 
+
+New Label: contradiction.
+Original:Premise: An older women tending to a garden., Hypothesis: The lady is cooking dinner, Label: contradiction
+Prompt:Premise: An older women tending to a garden., Hypothesis: The lady is cooking dinner, Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: An older woman tending to a garden., Hypothesis: The lady is preparing dinner, Label: neutral.
+Original:Premise: An older women tending to a garden., Hypothesis: The lady is weeding her garden, Label: neutral
+Prompt:Premise: An older women tending to a garden., Hypothesis: The lady is weeding her garden, Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: An older women tending to a garden.
+Hypothesis: The lady is cultivating her garden.
+Label: Neutral 
+Changed Label: Contradiction
+Original:Premise: An older women tending to a garden., Hypothesis: The lady has a garden, Label: entailment
+Prompt:Premise: An older women tending to a garden., Hypothesis: The lady has a garden, Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: An older woman tending to a garden.
+Hypothesis: The lady owns a garden.
+Label: neutral. 
+
+Note: The length of the sentence is kept the same by replacing "has" with "owns."
+Original:Premise: A man in a black shirt overlooking bike maintenance., Hypothesis: A man destroys a bike., Label: contradiction
+Prompt:Premise: A man in a black shirt overlooking bike maintenance., Hypothesis: A man destroys a bike., Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man in a black shirt overlooking bike maintenance.
+Hypothesis: A man repairs a bike.
+Label: neutral
+Original:Premise: A man in a black shirt overlooking bike maintenance., Hypothesis: A man watches bike repairs., Label: entailment
+Prompt:Premise: A man in a black shirt overlooking bike maintenance., Hypothesis: A man watches bike repairs., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man in a black shirt overlooking bike maintenance.
+Hypothesis: A man observes bike maintenance.
+Label: neutral
+Original:Premise: A man in a black shirt overlooking bike maintenance., Hypothesis: A man learns bike maintenance., Label: neutral
+Prompt:Premise: A man in a black shirt overlooking bike maintenance., Hypothesis: A man learns bike maintenance., Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man in a black shirt overlooking bike maintenance.
+Hypothesis: A man studies bike upkeep.
+Label: neutral
+
+Premise: A man in a black shirt overlooking bike maintenance.
+Hypothesis: A man observes bike upkeep.
+Label: contradiction
+Original:Premise: A man in a black shirt is looking at a bike in a workshop., Hypothesis: A man is wearing a red shirt, Label: contradiction
+Prompt:Premise: A man in a black shirt is looking at a bike in a workshop., Hypothesis: A man is wearing a red shirt, Label: contradiction,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man in a black shirt is looking at a bike in a workshop.
+Hypothesis: A man is wearing a blue shirt.
+Label: neutral.
+Original:Premise: A man in a black shirt is looking at a bike in a workshop., Hypothesis: A man is in a black shirt, Label: entailment
+Prompt:Premise: A man in a black shirt is looking at a bike in a workshop., Hypothesis: A man is in a black shirt, Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man in a black shirt is looking at a bike in a workshop., Hypothesis: A male individual wearing a black shirt is observing a bicycle in a garage., Label: neutral
+Original:Premise: A man in a black shirt is looking at a bike in a workshop., Hypothesis: A man is deciding which bike to buy, Label: neutral
+Prompt:Premise: A man in a black shirt is looking at a bike in a workshop., Hypothesis: A man is deciding which bike to buy, Label: neutral,                change the Label to contraction by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man in a black shirt is looking at a bike in a workshop., Hypothesis: A man is evaluating which bike to purchase, Label: contradiction
+Original:Premise: A man looking over a bicycle's rear wheel in the maintenance garage with various tools visible in the background., Hypothesis: A person is in a garage., Label: entailment
+Prompt:Premise: A man looking over a bicycle's rear wheel in the maintenance garage with various tools visible in the background., Hypothesis: A person is in a garage., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
+Changed:Premise: A man looking over a bicycle's rear wheel in the maintenance garage with various tools visible in the background. 
+Hypothesis: A person is in a workshop. 
+Label: neutral
+Original:Premise: A man looking over a bicycle's rear wheel in the maintenance garage with various tools visible in the background., Hypothesis: A man repairs bicycles., Label: entailment
+Prompt:Premise: A man looking over a bicycle's rear wheel in the maintenance garage with various tools visible in the background., Hypothesis: A man repairs bicycles., Label: entailment,                change the Label to neutral by replace only one Synonyms word in second sentence, ensure the same length of sentence
