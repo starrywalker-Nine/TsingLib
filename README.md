@@ -4,7 +4,7 @@ TCCI初级教程，每一周的文档放在对应的文件夹中。
 # CHATGPT相关工具使用说明准备上线
 CHATPDF https://www.chatpdf.com 基础PDF阅读，泛读推荐
 
-ELICIT  https://elicit.org/
+ELICIT  https://elicit.org/ 相关文献搜索，模糊
 
 EXPLAINPAPER https://www.explainpaper.com 偏重内容理解，精读推荐
 
@@ -36,8 +36,15 @@ huggingface：https://arxiv.org/pdf/1910.03771.pdf
 强化学习概念，以HUGGING FACE博客为例，训练出一个成功的AGENT
 huggingface blog：https://huggingface.co/learn/deep-rl-course/en/unit1/hands-on?fw=pt
 
-RL结合CHAT进行开发的思路（part1
+RL结合CHAT进行开发的思路（part1-讲解基础的强化学习知识，训练出一个Agent并知道如何自定义一个环境
 NLPGym: https://github.com/rajcscw/nlp-gym
+Overview: https://www.ijcai.org/proceedings/2019/0880.pdf
+
+TODO..
+part2-知道强化学习在NLP中的应用方式，并把相关任务用强化学习进行优化
+创新点1. 强化学习作为instruction输出，创造一个生态链，仿造一个群体算法进行优化
+创新点2. 强化学习对对抗样本进行防御，尝试让对抗样本对模型的影响降低
+创新点3. 多个模型进行交互...
 
 # WEEK4.
 
