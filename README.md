@@ -1,7 +1,7 @@
 # Wanted: Specialists in AI Engineering, Design, and Project Management
 
 ## Introduction
-We are TCCI, a team focused on large language models (LLMs) and knowledge engineering. Currently, we are located at the "Top of the Boxue Building". We are devoted to the R&D of next-generation AI applications for vertical markets. We are in the research stage of developing two algorithms, balancing research and engineering. Team members will receive excellent perks and master engineering skills that allow them to further their studies in elite universities or seek employment in top-tier companies. Our philosophy is "let your loved ones use your products".
+We are team Knowledge Information and Large Language Models(KILLMs), a team focused on large language models (LLMs) and knowledge engineering. Currently, we are located at the "Top of the Boxue Building". We are devoted to the R&D of next-generation AI applications for vertical markets. We are in the research stage of developing two algorithms, balancing research and engineering. Team members will receive excellent perks and master engineering skills that allow them to further their studies in elite universities or seek employment in top-tier companies. Our philosophy is "let your loved ones use your products".
 
 ### Agent Large Language Model Position (3-4 vacancies)
 If you are keen to develop large language models and solve algorithmic problems under limited computing power, if you understand NLP technologies and large language models, join us!
@@ -82,4 +82,9 @@ We hope you are:
 - The Steve Jobs of Guizhou University
 
 **Recruitment Coordinator:**
-看不懂？！！没关系，来自大模型的怜悯[中文版招聘公告](./README_zh.md)
+
+
+![We are glad to answer your QUESTIONS](./source/IMG_3954.JPG)
+
+
+看不懂？！！没关系，来自大模型的怜悯--->[中文版招聘公告](./README_zh.md)
