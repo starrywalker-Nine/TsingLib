@@ -82,4 +82,4 @@ We hope you are:
 - The Steve Jobs of Guizhou University
 
 **Recruitment Coordinator:**
-
+看不懂？！！没关系，来自大模型的怜悯[中文版招聘公告](./README_zh.md)
